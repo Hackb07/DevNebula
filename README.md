@@ -1,62 +1,67 @@
 
 # 🚀 Arch Linux AI & App Developer Environment Setup
 
-This repository contains a powerful **Arch Linux setup script** to install all essential tools for **AI/ML development** and **application development**.  
-It includes Miniconda environments for **TensorFlow** and **PyTorch**, Zsh with **Oh My Zsh** plugins, themes, languages, IDEs, containers, databases, and more.
+This repository provides a **comprehensive Arch Linux setup script** tailored for **AI/ML development** and **application development**.
+It installs **Miniconda environments**, programming languages, IDEs, containers, databases, theming, and Zsh enhancements for a ready-to-code experience.
 
 ---
 
 ## ✨ Features
 
-- 🐍 **Miniconda** with pre-configured environments:
-  - `tensorflow`: TensorFlow, Keras, Matplotlib, Pandas, Scikit-learn, JupyterLab  
-  - `pytorch`: PyTorch, Torchvision, Torchaudio  
-- 💻 **Programming Languages**: Python, Node.js, Java (OpenJDK 21), Go, Rust, Ruby, .NET SDK  
-- 🐳 **Containers & Virtualization**: Docker, Docker Compose, Podman, Vagrant, QEMU, Virt-Manager  
-- 🗄 **Databases**: PostgreSQL, MySQL, SQLite, Redis, MongoDB  
-- 🖌 **Theming & Fonts**: Papirus icons, Arc GTK theme, Kvantum, LXAppearance, Alacritty terminal  
-- 🧠 **AI Libraries & Tools**: NumPy, SciPy, Seaborn, OpenCV, Transformers, Diffusers, Accelerate, Torchinfo, Gradio, Streamlit, Flask, FastAPI  
-- 📱 **App Dev Tools**: Flutter, Android Tools, Gradle, Maven, Yarn, Deno  
-- ⚡ **Zsh Power-Up**:  
-  - Oh My Zsh for easy configuration  
-  - Plugins: `zsh-autosuggestions`, `zsh-syntax-highlighting`  
-  - Starship for a modern prompt  
+* 🧠 **Pre-configured Miniconda environments**:
+
+  * `tensorflow`: TensorFlow, Keras, Matplotlib, Pandas, Scikit-learn, JupyterLab
+  * `pytorch`: PyTorch, Torchvision, Torchaudio
+* 💻 **Programming Languages**: Python, Node.js, Java (OpenJDK 21), Go, Rust, Ruby, .NET SDK
+* 🐳 **Containers & Virtualization**: Docker, Docker Compose, Podman, Vagrant, QEMU, Virt-Manager
+* 🗄 **Databases**: PostgreSQL, MySQL, SQLite, Redis, MongoDB
+* 🎨 **Theming & Fonts**: Papirus Icons, Arc GTK Theme, Kvantum, LXAppearance, Alacritty Terminal
+* 🔬 **AI Libraries & Tools**: NumPy, SciPy, Seaborn, OpenCV, Transformers, Diffusers, Accelerate, Torchinfo, Gradio, Streamlit, Flask, FastAPI
+* 📱 **App Development Tools**: Flutter, Android SDK Tools, Gradle, Maven, Yarn, Deno
+* ⚡ **Zsh Power-Up**:
+
+  * Oh My Zsh for simplified configuration
+  * Plugins: `zsh-autosuggestions`, `zsh-syntax-highlighting`
+  * Starship prompt for a modern shell experience
 
 ---
 
 ## 📋 Requirements
 
-- Arch Linux (latest, fully updated)
-- Internet connection  
-- Sufficient storage (~10–15 GB recommended)
+* Arch Linux (latest, fully updated)
+* Stable internet connection
+* At least **10–15 GB** of free storage
 
 ---
 
 ## 🛠 Installation
 
-1. Clone this repository or download the script:
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/<your-username>/arch-ai-app-dev-setup.git
    cd arch-ai-app-dev-setup
-````
+   ```
 
-2. Make the script executable:
+2. Make the setup script executable:
 
    ```bash
    chmod +x arch_ai_app_dev_setup.sh
    ```
-3. Run the script:
+
+3. Run the installer:
 
    ```bash
    ./arch_ai_app_dev_setup.sh
    ```
-4. Reboot or log out/in after installation.
+
+4. Reboot or log out/in to finalize environment changes.
 
 ---
 
 ## ▶ Usage
 
-### Start Zsh and Activate Conda
+### Initialize Zsh & Conda
 
 ```bash
 zsh
@@ -64,7 +69,7 @@ conda init zsh
 source ~/.zshrc
 ```
 
-### Activate Environments
+### Activate Conda Environments
 
 ```bash
 conda activate tensorflow
@@ -78,9 +83,7 @@ conda activate pytorch
 jupyter lab
 ```
 
-### Use Docker Without Sudo
-
-After reboot, Docker is ready:
+### Run Docker Without Sudo
 
 ```bash
 docker run hello-world
@@ -90,9 +93,9 @@ docker run hello-world
 
 ## 🎨 Customization
 
-* Change themes with **LXAppearance** or **GNOME Tweaks**.
-* Modify Zsh settings in `~/.zshrc`.
-* Install additional Conda environments for specialized AI frameworks.
+* Use **LXAppearance** or **GNOME Tweaks** to change themes.
+* Edit `~/.zshrc` to adjust Zsh settings or add plugins.
+* Create additional Conda environments for specific frameworks or projects.
 
 ---
 
@@ -113,12 +116,12 @@ docker run hello-world
 
 ## 🧑‍💻 Contributing
 
-Pull requests and suggestions are welcome!
-Fork this repository and create a new branch for your improvements.
+Contributions are welcome!
+Fork the repository, create a feature branch, and submit a pull request with improvements or fixes.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
